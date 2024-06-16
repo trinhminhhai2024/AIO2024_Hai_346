@@ -25,7 +25,7 @@ def act_func(x, af_name):
         result = x
     return result
     
-    result = None
+  result = None
     
   if af_name == "sig":
         result = calc_sig(x)
