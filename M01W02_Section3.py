@@ -1,10 +1,7 @@
 #!gdown https://drive.google.com/uc?id=1IBScGdW2xlNsc9v5zSAya548kNgiOrko
-with open('/content/P1_data.txt', 'r') as f:
-  #sentence = f.readlines()
+with open('/content/P1_data.txt', 'r') as f: 
   document = f.read()
-#type(sentence)
-#sentence[:2]
-#print(document)
+
 def text_preprocessing(sentence):
   sentence = sentence.lower()
   sentence = sentence.replace('.','').replace(',','')
